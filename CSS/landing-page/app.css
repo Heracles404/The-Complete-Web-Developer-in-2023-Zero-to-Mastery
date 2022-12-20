@@ -1,0 +1,84 @@
+/*google font API*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    background: url("header.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+/*Title*/
+h1 {
+    font-size: 3rem;
+    color: #e1dede;
+}
+
+.buffer {
+    height: 10rem;
+}
+
+/*Horizontal Line*/
+hr {
+    margin: 20px auto !important;
+    color: #F05F44;
+    border: 1px solid #F05F44 !important;
+    max-width: 100px;
+    opacity: 1 !important;
+}
+
+/*Find out more - button*/
+button.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+button.btn-primary {
+    background-color: #F05F44;
+    border-color: #F05F44;
+    transition: all .10s;
+}
+
+button.btn-primary:hover {
+    background-color: #EE4B08;
+    border-color: #EE4B08;
+    border-width: 4px;
+}
+
+button.btn-xl {
+    padding: 1rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
